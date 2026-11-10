@@ -1,0 +1,88 @@
+[INFO pid=2613] listening 127.0.0.1:44545 mode=robust
+[INFO pid=2613] accepted child=2614 active=1
+[DEBUG pid=2614] received frame bytes=6
+[DEBUG pid=2614] command=HOLD 3
+[INFO pid=2613] accepted child=2615 active=2
+[DEBUG pid=2615] received frame bytes=6
+[INFO pid=2613] accepted child=2616 active=3
+[DEBUG pid=2616] received frame bytes=6
+[DEBUG pid=2616] command=HOLD 3
+[DEBUG pid=2615] command=HOLD 3
+[INFO pid=2613] accepted child=2617 active=4
+[DEBUG pid=2617] received frame bytes=6
+[DEBUG pid=2617] command=HOLD 3
+[INFO pid=2613] accepted child=2618 active=5
+[DEBUG pid=2618] received frame bytes=6
+[DEBUG pid=2618] command=HOLD 3
+[INFO pid=2613] accepted child=2619 active=6
+[DEBUG pid=2619] received frame bytes=6
+[INFO pid=2613] accepted child=2620 active=7
+[DEBUG pid=2620] received frame bytes=6
+[DEBUG pid=2620] command=HOLD 3
+[DEBUG pid=2619] command=HOLD 3
+[INFO pid=2613] accepted child=2621 active=8
+[DEBUG pid=2621] received frame bytes=6
+[DEBUG pid=2621] command=HOLD 3
+[INFO pid=2613] accepted child=2622 active=9
+[DEBUG pid=2622] received frame bytes=6
+[DEBUG pid=2622] command=HOLD 3
+[INFO pid=2613] accepted child=2623 active=10
+[DEBUG pid=2623] received frame bytes=6
+[INFO pid=2613] accepted child=2624 active=11
+[DEBUG pid=2624] received frame bytes=6
+[DEBUG pid=2624] command=HOLD 3
+[DEBUG pid=2623] command=HOLD 3
+[INFO pid=2613] accepted child=2625 active=12
+[DEBUG pid=2625] received frame bytes=6
+[DEBUG pid=2625] command=HOLD 3
+[DEBUG pid=2614] send frame bytes=18
+[DEBUG pid=2616] send frame bytes=18
+[DEBUG pid=2615] send frame bytes=18
+[DEBUG pid=2617] send frame bytes=18
+[DEBUG pid=2618] send frame bytes=18
+[DEBUG pid=2620] send frame bytes=18
+[DEBUG pid=2619] send frame bytes=18
+[DEBUG pid=2621] send frame bytes=18
+[DEBUG pid=2622] send frame bytes=18
+[DEBUG pid=2624] send frame bytes=18
+[DEBUG pid=2623] send frame bytes=18
+[DEBUG pid=2625] send frame bytes=18
+[INFO pid=2614] connection ended: Connection reset by peer
+[INFO pid=2615] connection ended: Connection reset by peer
+[INFO pid=2622] connection ended: Connection reset by peer
+[INFO pid=2617] connection ended: Connection reset by peer
+[INFO pid=2620] connection ended: Connection reset by peer
+[INFO pid=2623] connection ended: Connection reset by peer
+[INFO pid=2618] connection ended: Connection reset by peer
+[INFO pid=2616] connection ended: Connection reset by peer
+[INFO pid=2625] connection ended: Connection reset by peer
+[INFO pid=2624] connection ended: Connection reset by peer
+[INFO pid=2621] connection ended: Connection reset by peer
+[INFO pid=2619] connection ended: Connection reset by peer
+[INFO pid=2613] reaped child=2614 signal=0 active=11
+[INFO pid=2613] reaped child=2615 signal=0 active=10
+[INFO pid=2613] reaped child=2616 signal=0 active=9
+[INFO pid=2613] reaped child=2617 signal=0 active=8
+[INFO pid=2613] reaped child=2618 signal=0 active=7
+[INFO pid=2613] reaped child=2619 signal=0 active=6
+[INFO pid=2613] reaped child=2620 signal=0 active=5
+[INFO pid=2613] reaped child=2621 signal=0 active=4
+[INFO pid=2613] reaped child=2622 signal=0 active=3
+[INFO pid=2613] reaped child=2623 signal=0 active=2
+[INFO pid=2613] reaped child=2624 signal=0 active=1
+[INFO pid=2613] reaped child=2625 signal=0 active=0
+[INFO pid=2613] accepted child=2627 active=1
+[INFO pid=2627] connection ended: Message too long
+[INFO pid=2613] accepted child=2628 active=2
+[INFO pid=2613] reaped child=2627 signal=0 active=1
+[INFO pid=2628] connection ended: Message too long
+[INFO pid=2613] accepted child=2629 active=2
+[INFO pid=2613] reaped child=2628 signal=0 active=1
+[INFO pid=2629] connection ended: Protocol error
+[INFO pid=2613] accepted child=2630 active=2
+[INFO pid=2613] reaped child=2629 signal=0 active=1
+[DEBUG pid=2630] received frame bytes=4
+[DEBUG pid=2630] command=PING
+[DEBUG pid=2630] send frame bytes=16
+[INFO pid=2630] connection ended: Connection reset by peer
+[INFO pid=2613] shutdown complete

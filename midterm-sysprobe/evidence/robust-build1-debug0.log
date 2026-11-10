@@ -1,0 +1,10 @@
+[INFO pid=2631] listening 127.0.0.1:59811 mode=robust
+[INFO pid=2631] accepted child=2632 active=1
+[INFO pid=2632] connection ended: Connection reset by peer
+[INFO pid=2631] accepted child=2633 active=2
+[INFO pid=2631] reaped child=2632 signal=0 active=1
+[INFO pid=2633] connection ended: Connection timed out
+[INFO pid=2631] reaped child=2633 signal=0 active=0
+[INFO pid=2631] accepted child=2634 active=1
+[INFO pid=2634] connection ended: Connection reset by peer
+[INFO pid=2631] shutdown complete

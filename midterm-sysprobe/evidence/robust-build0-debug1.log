@@ -1,0 +1,16 @@
+[INFO pid=2602] listening 127.0.0.1:58889 mode=robust
+[INFO pid=2602] accepted child=2604 active=1
+[INFO pid=2604] connection ended: Connection reset by peer
+[INFO pid=2602] accepted child=2606 active=2
+[INFO pid=2602] reaped child=2604 signal=0 active=1
+[INFO pid=2606] connection ended: Connection reset by peer
+[INFO pid=2602] accepted child=2608 active=2
+[INFO pid=2608] connection ended: Connection reset by peer
+[INFO pid=2602] reaped child=2606 signal=0 active=1
+[INFO pid=2602] reaped child=2608 signal=0 active=0
+[INFO pid=2602] accepted child=2610 active=1
+[INFO pid=2610] connection ended: Connection reset by peer
+[INFO pid=2602] accepted child=2612 active=2
+[INFO pid=2602] reaped child=2610 signal=0 active=1
+[INFO pid=2602] reaped child=2612 signal=0 active=0
+[INFO pid=2602] shutdown complete

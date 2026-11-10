@@ -1,0 +1,9 @@
+[INFO pid=2635] listening 127.0.0.1:43809 mode=baseline
+[INFO pid=2635] accepted child=2636 active=1
+[INFO pid=2636] connection ended: Protocol error
+[INFO pid=2635] reaped child=2636 signal=0 active=0
+[INFO pid=2635] accepted child=2637 active=1
+[INFO pid=2637] connection ended: No child processes
+[INFO pid=2635] reaped child=2637 signal=0 active=0
+[INFO pid=2635] accepted child=2638 active=1
+[INFO pid=2635] shutdown complete

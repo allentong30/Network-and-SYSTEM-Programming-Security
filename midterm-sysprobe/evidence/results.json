@@ -1,0 +1,70 @@
+{
+  "platform": "Linux 6.18.58.1-microsoft-standard-WSL2 x86_64 GNU/Linux",
+  "results": [
+    {
+      "test": "features build=1 debug=True",
+      "result": "PASS",
+      "detail": "OK host=MSI os=Linux kernel=6.18.58.1-microsoft-standard-WSL2 machine=x86_64 pid=2582"
+    },
+    {
+      "test": "features build=1 debug=False",
+      "result": "PASS",
+      "detail": "OK host=MSI os=Linux kernel=6.18.58.1-microsoft-standard-WSL2 machine=x86_64 pid=2593"
+    },
+    {
+      "test": "features build=0 debug=True",
+      "result": "PASS",
+      "detail": "OK host=MSI os=Linux kernel=6.18.58.1-microsoft-standard-WSL2 machine=x86_64 pid=2604"
+    },
+    {
+      "test": "compile/runtime debug",
+      "result": "PASS",
+      "detail": "debug messages only when DEBUG=1 AND --debug"
+    },
+    {
+      "test": "12 concurrent clients",
+      "result": "PASS",
+      "detail": "12 live child PIDs=['2614', '2615', '2616', '2617', '2618', '2619', '2620', '2621', '2622', '2623', '2624', '2625']; 12 HOLD responses received in 2.72s after snapshot"
+    },
+    {
+      "test": "child reaping",
+      "result": "PASS",
+      "detail": "no children remain after clients close"
+    },
+    {
+      "test": "malformed frames",
+      "result": "PASS",
+      "detail": "oversized, empty and NUL frames rejected; later client succeeds"
+    },
+    {
+      "test": "fragmentation robust",
+      "result": "PASS",
+      "detail": "OK host=MSI os=Linux kernel=6.18.58.1-microsoft-standard-WSL2 machine=x86_64 pid=2632"
+    },
+    {
+      "test": "stalled sender robust",
+      "result": "PASS",
+      "detail": "child count after 1.1s=0; timeout=800ms"
+    },
+    {
+      "test": "unknown command robust",
+      "result": "PASS",
+      "detail": "ERR unknown command; OK PONG pid=2634"
+    },
+    {
+      "test": "fragmentation baseline",
+      "result": "PASS",
+      "detail": "connection closed: incomplete recv"
+    },
+    {
+      "test": "stalled sender baseline",
+      "result": "PASS",
+      "detail": "child count after 1.1s=1; timeout=800ms"
+    },
+    {
+      "test": "unknown command baseline",
+      "result": "PASS",
+      "detail": "connection closed; cannot continue session"
+    }
+  ]
+}
