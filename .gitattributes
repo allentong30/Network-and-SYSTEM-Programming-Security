@@ -1,0 +1,11 @@
+* text=auto
+*.c text eol=lf
+*.h text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.log text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.html text eol=lf
+Makefile text eol=lf
+*.png binary

@@ -53,9 +53,13 @@ WSL Ubuntu Linux 上 `make test` 完成 13 項 PASS。編譯啟用 `-Wall -Wextr
 
 實際 PID、時間、平台與輸出保存在 `evidence/results.json` 及 `concurrency-processes.txt`，請以檔案為準；重跑會產生不同 PID。測試腳本使用 Python socket 來精確分段送資料，並非 Python server 代替 C server。
 
-## 五、執行截圖與封包（提交前補齊）
+## 五、執行截圖與封包
 
-現有 evidence 是實際文字執行證據。建議在自己的 Ubuntu 終端機重跑並截取：
+下圖為瀏覽器開啟真實測試紀錄頁的截圖，來源是上述實測 JSON 與 ps snapshot，並非即時終端機。原始頁面為 `evidence/execution.html`。重跑測試會更新文字證據；此圖為 2026-11-10 保存的版本，不會自動重新產生。
+
+![實測結果與 12 個子行程紀錄](../evidence/execution.png)
+
+現有 evidence 亦保留原始文字執行證據。若老師要求終端機操作過程畫面，請在自己的 Ubuntu 終端機重跑並截取：
 
 1. `make` 成功、server 啟動與 client SYSINFO/MEMORY/DISK 輸出。
 2. `make test` 的 12 concurrent clients PASS，以及 `cat evidence/concurrency-processes.txt` 的 12 組子行程。
